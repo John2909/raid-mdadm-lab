@@ -47,7 +47,6 @@ Un **snapshot VMware** (`etat-initial-6-disques`) a été pris avant le premier 
 ```
 raid-mdadm-lab/
 ├── README.md
-├── LICENSE
 ├── configs/
 │   ├── mdadm.conf          ← configuration mdadm (lignes ARRAY et PROGRAM)
 │   └── fstab-raid5.txt     ← la ligne fstab du RAID 5
@@ -609,7 +608,3 @@ Les six disques virtuels reposent sur **le même support physique** de la machin
 - Mesure de performances avec `fio` : conception d'un protocole équitable, analyse critique de la variabilité des résultats.
 - Rigueur de méthode : vérification d'intégrité par empreinte SHA-256, correction d'une donnée erronée avant publication, séparation entre résultats solides et résultats non fiables.
 - Gestion de version avec Git et GitHub : un commit poussé à chaque étape.
-
-## Licence
-
-Voir le fichier `LICENSE` du dépôt.
